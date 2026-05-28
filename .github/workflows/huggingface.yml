@@ -11,6 +11,6 @@ jobs:
       - name: Sync to Hugging Face
         uses: huggingface/hub-sync@v1
         with:
-          repo: 'zadaniam/ai-email-agent'
+          repo: 'zadaniamm/ai-email-agent'
 
           token: ${{ secrets.HF_TOKEN }}
